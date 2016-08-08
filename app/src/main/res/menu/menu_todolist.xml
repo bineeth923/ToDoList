@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bluedragons.todolist.LoginActivity">
+    <item
+        android:id="@+id/action_add"
+        android:title="@string/action_add"
+        android:icon="@drawable/ic_add_black_48dp"
+        app:showAsAction="always"
+        android:orderInCategory="100">
+
+    </item>
+    <item
+        android:id="@+id/action_Sync"
+        android:title="@string/action_sync"
+        android:icon="@drawable/ic_sync_black_48dp"
+        app:showAsAction="always"
+        android:orderInCategory="101">
+
+    </item>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        android:orderInCategory="102">
+    </item>
+</menu>
